@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin-bottom: 250px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+}
+ul{
+    display: flex;
+    padding: 20px;
+}
+li a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.665);
+    font-family:"raleway",sans-serif;
+    font-size: 13px;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+}
+li a:hover{
+    border-bottom: 2px solid #2e459b;
+    color:  black;
+    border-radius: 2px;
+    
+}
+button{
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+    color: #355cb1;
+    background-color: #FFD8DB;
+    cursor: pointer;
+    font-family: 'raleway',sans-serif;
+}
+button:hover{
+    box-shadow: 2px 2px 5px 2px lightgray;
+}
+main{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 90px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding: 0;
+    
+}
+.right_container img{
+    width: 750px;
+    height: 550px;
+    position: relative;
+    left: 40px;
+}
+.para{
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-family: 'Nunito-Sans', sans-serif;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.787);
+}
+#blue{
+    color:#fff;
+    background-color:#5243C0;
+    font-weight: 200;
+    padding: 22px;
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    top: 20px;
+}
+.new_account img{
+    position: relative;
+    top: 50px;
+    padding: 5px;
+}
+#up{
+    opacity: 0.5;
+}
+.card1{
+    display: flex;
+    position: relative;
+    top: 80px;
+    border-radius: 10px;
+    background-color: rgba(207, 196, 196, 0.212);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+h4{
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 10px;
+    width: 70%;
+    font-family: 'Nunito-Sans',sans-serif;
+}
+#date{
+    opacity: 0.4;
+}
+.user{
+    margin-left:auto;
+    margin-right: auto;
+}
+#tick_blue{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 2px ;
+}
+#tick_grey{
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.card1:hover #tick_blue{
+    display: inline;   
+}
+
+.card1:hover #tick_grey{
+    display: none;
+}
+
+.card1:hover{
+    box-shadow:3px 3px 4px 4px rgba(128, 128, 128, 0.462);
+    background-color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+
